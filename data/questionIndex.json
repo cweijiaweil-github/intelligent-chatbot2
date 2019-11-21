@@ -1,0 +1,10 @@
+{
+  "views": {},
+  "language": "javascript",
+  "indexes": {
+    "searchQuestions": {
+      "analyzer": "standard",
+      "index": "function (doc) {\n  if (doc.question) {\n    index(\"question\", doc.question, {\"store\": true, \"facet\": true});\n  }\n}"
+    }
+  }
+}

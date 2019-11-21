@@ -1,0 +1,9 @@
+{
+  "index": {
+    "fields": [
+      "history.create_time"
+    ]
+  },
+  "name": "hct-json-index",
+  "type": "json"
+}
