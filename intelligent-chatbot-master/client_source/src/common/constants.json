@@ -1,0 +1,11 @@
+{
+  "api": {
+    "path": {
+      "sessionID": "/api/session/id",
+      "chat": "/api/chat",
+      "history": "/api/history",
+      "outputHistory": "/api/history/csv"
+    },
+    "token": "test"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "conversation_url": "https://gateway.watsonplatform.net/conversation/api",
+  "conversation_step": {
+    "inquire": "1001",
+    "answer": "2001",
+    "contact": "3001"
+  },
+  "ncl_confidence": 0.5,
+  "discovery_score": 15,
+  "messages": {
+    "msg_db_with": "ご質問に該当する回答がありません、以下は関連する質問です。再度ご質問いただけますか。",
+    "msg_fail": "ショウメイは保険用語、FAQから勉強しています。ご質問はまだ勉強中です。"
+  },
+  "db_history_keys": ["device_id", "question", "answer", "source", "score", "create_time", "update_time"]
+}
